@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Pdf from '../CV_eng (2).pdf';
-import { Button } from 'reactstrap';
 
 class About extends Component {
    render() {

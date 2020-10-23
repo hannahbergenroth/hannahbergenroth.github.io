@@ -8,16 +8,16 @@ import ReactPlayer from "react-player"
 
 import table from "./img/tablecity.jpg"
 import webb from "./img/bild.png"
-import unity from "./img/unity.jpg"
-import t1 from "./img/table1.jpg"
+//import unity from "./img/unity.jpg"
+//import t1 from "./img/table1.jpg"
 import t2 from "./img/table2.png"
-import t3 from "./img/table3.png"
+//import t3 from "./img/table3.png"
 import t4 from "./img/table4.png"
 import t5 from "./img/table5.png"
 import b from "./img/b.JPG"
 import a from "./img/a.JPG"
-import c from "./img/c.jpg"
-import bildserie from "/Users/hannahbergenroth/Desktop/portfolio/my-app/src/Components/bildserie.png"
+//import c from "./img/c.jpg"
+import bildserie from "./img/bildserie.png"
 import qatch from "./img/qatch.png"
 
 function TableCity(props) {
@@ -271,24 +271,7 @@ function AIApp() {
 class Portfolio extends Component {
   render() {
 
-    if (this.props.data) {
-      var projects = this.props.data.projects.map(function (projects) {
-        var projectImage = 'images/portfolio/' + projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      })
-    }
+ 
 
 
 
